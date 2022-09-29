@@ -10,6 +10,9 @@ export default function MaisonLaurierHero() {
           <h5>LAURIER</h5>
         </div>
       </div>
+      <p className="MLText"><strong>HIGH QUALITY</strong> unique prints, 
+        digital art, and customized sneakers 
+        sold as NFTs on the Ethereum blockchain.</p>
     </div>
   );
 }
