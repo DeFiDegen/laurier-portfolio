@@ -1,0 +1,30 @@
+.Hero {
+  /* margin-left: 112px; */
+  display: flex;
+  align-items: flex-end;
+  margin-left: 128px;
+
+}
+
+.HeroInfo {
+  margin: 0;
+  width: 500px;
+}
+
+.HeroInfo, p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.HeroInfo, h2 {
+  margin: 0;
+  padding: 0;
+}
+.HeroInfo, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.CloneImage {
+  width: 55%;
+}

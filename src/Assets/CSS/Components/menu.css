@@ -3,9 +3,11 @@
   justify-content: right;
   margin-right: 20px;
   /* padding-right: 20px; */
+  position: relative;
 }
 
 .MenuList {
+  position: absolute;
   list-style-type: none;
   margin: 0;
   padding: 10px 20px;
