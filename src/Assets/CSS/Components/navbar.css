@@ -1,6 +1,6 @@
-.navigation {
-  position: fixed;
-  top: 0;
+.Navigation {
+  position: sticky;
+  top: 0px;
 }
 
 .Navbar {
@@ -12,6 +12,7 @@
   display: flex;
   padding: 4px 20px;
   cursor: pointer;
+
 }p {
   padding-right: 8px;
 }
