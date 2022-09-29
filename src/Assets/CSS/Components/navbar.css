@@ -1,0 +1,9 @@
+.Navbar {
+  display: flex;
+  justify-content: right;
+}.NavbarIcons {
+  display: flex;
+  padding: 0 12px;
+}p {
+  padding-right: 6px;
+}
