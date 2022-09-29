@@ -11,6 +11,11 @@
 .NavbarIcons {
   display: flex;
   padding: 4px 20px;
+  cursor: pointer;
 }p {
   padding-right: 8px;
+}
+
+.NavbarIcons:hover {
+  transition-duration: 500ms;
 }

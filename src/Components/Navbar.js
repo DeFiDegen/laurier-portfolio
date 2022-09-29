@@ -19,8 +19,8 @@ function Navbar() {
           <img src={menuIcon} alt="Menu Icon" className="MenuIcon"/>
         </div>
       </div>
+      
       {menuActive ? <Menu/> : null }
-
     </div>
   );
 }
