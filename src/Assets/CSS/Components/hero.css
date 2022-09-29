@@ -1,4 +1,4 @@
-.Hero {
+#Hero {
   /* margin-left: 112px; */
   display: flex;
   align-items: flex-end;
@@ -26,5 +26,5 @@
 }
 
 .CloneImage {
-  width: 55%;
+  height: 100vh;
 }

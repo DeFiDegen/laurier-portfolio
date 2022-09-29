@@ -2,11 +2,11 @@ const clone = "images/HeroImageFull.png";
 
 export default function Hero() {
   return (
-    <div className="Hero">
+    <div id="Hero">
       <div className="HeroInfo">
-        <h3 className="InfoElement">A showcase of my creative work</h3>
-        <h2 className="InfoElement">LAURIER <strong>ST-AUBIN</strong></h2>
-        <p className="InfoElement">I love art, music, and technology. 
+        <h3>A showcase of my creative work</h3>
+        <h2>LAURIER <strong>ST-AUBIN</strong></h2>
+        <p>I love art, music, and technology. 
           I am currently living in Canada, 
           but I am looking to relocate to the metaverse. 
           I can help you design and implement your website. 

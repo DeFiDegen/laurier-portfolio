@@ -4,6 +4,7 @@
   margin-right: 20px;
   /* padding-right: 20px; */
   position: relative;
+  z-index: 3;
 }
 
 .MenuList {
@@ -16,4 +17,5 @@
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   border-radius: 10px;
+  z-index: 3;
 }
