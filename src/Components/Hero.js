@@ -2,7 +2,7 @@ const clone = "images/HeroImageFull.png";
 
 export default function Hero() {
   return (
-    <div className="Hero">
+    <div id="Hero">
       <div className="HeroInfo">
         <h3 className="InfoElement">A showcase of my creative work</h3>
         <h2 className="InfoElement">LAURIER <strong>ST-AUBIN</strong></h2>
