@@ -4,6 +4,7 @@
 @import url('./Components/menu.css');
 @import url('./Components/hero.css');
 @import url('./Components/maisonHero.css');
+@import url('./Components/maisonCarousel.css');
 
 .App {
   background-color: #414141;
