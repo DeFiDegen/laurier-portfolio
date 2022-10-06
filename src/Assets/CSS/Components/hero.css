@@ -1,9 +1,9 @@
 #Hero {
-  /* margin-left: 112px; */
   display: flex;
   align-items: flex-end;
   margin-left: 128px;
-
+  width: 100%;
+  height: 95vh;
 }
 
 .HeroInfo {
