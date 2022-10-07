@@ -14,7 +14,9 @@
   padding: 4px 20px;
   cursor: pointer;
 
-}p {
+} 
+
+.NavbarIcons > p {
   padding-right: 8px;
 }
 

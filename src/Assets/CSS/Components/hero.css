@@ -1,30 +1,30 @@
 #Hero {
-  /* margin-left: 112px; */
   display: flex;
   align-items: flex-end;
-  margin-left: 128px;
-
+  /* margin-left: 128px; */
+  margin-left: 8vw;
 }
 
 .HeroInfo {
-  margin: 0;
-  width: 500px;
+  /* margin: 0; */
+  /* width: 500px; */
+  width: 40vw;
 }
 
-.HeroInfo, p {
-  font-size: 12px;
-  margin: 10px 0;
+.HeroInfo > p {
+  /* font-size: 12px; */
+  font-size: 1vmax;
 }
 
-.HeroInfo, h2 {
+.HeroInfo > h2 {
   margin: 0;
   padding: 0;
 }
-.HeroInfo, h3 {
+.HeroInfo > h3 {
   margin: 0;
   padding: 0;
 }
 
 .CloneImage {
-  height: 100vh;
+  height: 50vw;
 }

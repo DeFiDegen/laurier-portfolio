@@ -1,3 +1,8 @@
+#MaisonLaurierHero {
+  width: 100%;
+  height: 100vh;
+}
+
 .MaisonVideo {
   width: 100%;
   height: 100vh;
@@ -7,7 +12,9 @@
 }
 
 .MaisonBanner {
-  padding: 150px;
+  /* padding: 150px; */
+  /* padding: 11vmax; */
+  padding: 9vw;
 }
 
 .MBContent {
@@ -16,26 +23,26 @@
   backdrop-filter: blur(12.5px);
   border-radius: 20px;
   position: relative;
-  width: 100%;
-  height: 100%;
   top: 0;
 }
 
-.maisonBanner, h4 {
+.MBContent > h4 {
   margin: 0;
   padding: 0;
 }
 
-.maisonBanner, h5 {
+.MBContent > h5 {
   margin: 0;
   padding: 0;
 }
 
 .MLText {
-  font-size: 20px;
-  width: 500px;
+  /* font-size: 20px; */
+  display: flex;
+  align-items: flex-end;
+  font-size: 2.8vmin;
+  width: 40vw;
+  height: 40vh;
   position: relative;
-  margin-left: 128px;
-  bottom: 0;
-  padding-top: 64px;
+  /* padding: 8em 0; */
 }

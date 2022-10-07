@@ -1,0 +1,59 @@
+#MaisonCarousel {
+  padding-top: 2vh;
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(180deg, #DEDEDE 0%, #D9D9D9 100%);
+  align-items: center;
+}
+
+.CarouselBanner {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  /* font-size: 500px; */
+  font-size: 48vmax;
+  /* margin: 0 auto; */
+  position: absolute;
+  width: 100%;
+  color: #e5e5e5;
+  z-index: 0;
+  align-items: center;
+}
+
+.Carousel {
+  margin: 0 auto;
+}
+
+.CarouselItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CarouselText.Left {
+  position: relative;
+  left: 2em;
+  z-index: 2;
+}
+
+.CarouselImage.Left {
+  position: relative;
+  /* width: 500px; */
+  height: 36vmax;
+  border-radius: 20px;
+  z-index: 1;
+  right: 2em;
+}
+
+.CarouselText.Right {
+  position: relative;
+  right: 2em;
+  z-index: 2;
+}
+
+.CarouselImage.Right {
+  position: relative;
+  height: 36vmax;
+  border-radius: 20px;
+  z-index: 1;
+  left: 2em;
+}
