@@ -13,7 +13,8 @@
 
 .MaisonBanner {
   /* padding: 150px; */
-  padding: 11vmax;
+  /* padding: 11vmax; */
+  padding: 9vw;
 }
 
 .MBContent {
@@ -37,6 +38,8 @@
 
 .MLText {
   /* font-size: 20px; */
+  display: flex;
+  align-items: flex-end;
   font-size: 1.53vmax;
   width: 40vw;
   height: 40vh;
