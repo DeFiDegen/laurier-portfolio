@@ -1,19 +1,19 @@
 #Hero {
   display: flex;
   align-items: flex-end;
-  margin-left: 128px;
-  width: 100%;
-  height: 95vh;
+  /* margin-left: 128px; */
+  margin-left: 8vw;
 }
 
 .HeroInfo {
-  margin: 0;
-  width: 500px;
+  /* margin: 0; */
+  /* width: 500px; */
+  width: 40vw;
 }
 
 .HeroInfo > p {
-  font-size: 12px;
-  margin: 10px 0;
+  /* font-size: 12px; */
+  font-size: 1vmax;
 }
 
 .HeroInfo > h2 {
@@ -26,5 +26,5 @@
 }
 
 .CloneImage {
-  height: 100vh;
+  height: 50vw;
 }

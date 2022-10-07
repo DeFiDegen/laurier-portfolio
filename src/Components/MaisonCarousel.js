@@ -4,6 +4,8 @@ const bandit = '/images/Bandit.JPEG'
 const doNotPanic = '/images/DoNotPanic.JPEG'
 const alienGarden = '/images/AlienGarden.PNG'
 const clouds = '/images/Clouds.PNG'
+const slimey = '/images/Slimey.PNG'
+
 
 export default function MaisonCarousel() {
   return (
@@ -12,10 +14,10 @@ export default function MaisonCarousel() {
         ART
       </div>
       <div className="Carousel">
-        {/* <div className="CarouselItem Left">
+        <div className="CarouselItem Left">
           <h6 className="CarouselText Left">RIFTCUBE</h6>
           <video className="CarouselImage Left" src={riftCube} autoPlay loop muted></video>
-        </div> */}
+        </div>
         {/* <div className="CarouselItem Right">
           <img className="CarouselImage Right" src={friends} alt="Friends"></img>
           <h6 className="CarouselText Right">FRIENDS</h6>
@@ -35,6 +37,10 @@ export default function MaisonCarousel() {
         {/* <div className="CarouselItem Right">
           <img className="CarouselImage Right" src={clouds} alt="Clouds"></img>
           <h6 className="CarouselText Right">CLOUDS</h6>
+        </div> */}
+        {/* <div className="CarouselItem Left">
+          <h6 className="CarouselText Left">SLIMEY</h6>
+          <img className="CarouselImage Left" src={slimey} alt="Slimey"></img>
         </div> */}
       </div>
     </div>

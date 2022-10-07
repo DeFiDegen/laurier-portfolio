@@ -16,28 +16,33 @@ body {
 }
 
 h2 {
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 3.2vmax;
   font-weight: 400;
-
 }
 
 h3 {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.6vmax;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 6.5vmax;
   font-weight: 700;
 }
 
 h5 {
-  font-size: 160px;
+  /* font-size: 160px; */
+  font-size: 13vmax;
   font-weight: 200;
 }
 
+
 h6 {
-  font-size: 64px;
+  /* font-size: 64px; */
+  font-size: 5vmax;
   font-weight: 700;
 }
 
