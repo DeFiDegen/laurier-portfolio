@@ -5,6 +5,7 @@
 @import url('./Components/hero.css');
 @import url('./Components/maisonHero.css');
 @import url('./Components/maisonCarousel.css');
+@import url('./Components/maisonCall.css');
 
 .App {
   background-color: #414141;
