@@ -26,11 +26,11 @@
   list-style-type: none;
   margin: 0;
   font-family: "Arial", sans-serif;
-  font-size: 30vmax;
+  font-size: 20vmax;
   color: #e5e5e5;
   z-index: 0;
 }
 
-.PineappleBanner > li {
+/* .PineappleBanner > li {
   text-align: center;
-}
+} */
