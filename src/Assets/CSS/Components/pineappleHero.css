@@ -1,0 +1,19 @@
+#PineappleHero {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #DADADA 0%, rgba(0, 0, 0, 0) 50.52%, #000000 96.87%); 
+}
+
+.PHeroText {
+  font-family: 'Exo', sans-serif;
+  font-size: 13vmin;
+  font-style: italic;
+  font-weight: 900;
+  /* color: linear-gradient(90deg, #FB1394 0%, #E3A024 100%); */
+  align-items: center;
+  background: linear-gradient(90deg, #FB1394 0%, #E3A024 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
