@@ -5,6 +5,7 @@ import MaisonLaurierHero from "./Components/MaisonLaurierHero";
 import MaisonCarousel from "./Components/MaisonCarousel";
 import MaisonCall from "./Components/MaisonCall";
 import PineappleHero from "./Components/PineappleHero";
+import PineappleCall from "./Components/PineappleCall";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MaisonCarousel/> 
       <MaisonCall/>
       <PineappleHero/>
+      <PineappleCall/>
     </div>
   );
 }

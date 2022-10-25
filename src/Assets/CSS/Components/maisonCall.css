@@ -9,14 +9,13 @@
   margin: 0;
 }
 
-.ButtonMaison {
-  /* background-color: black; */
+.ButtonText {
   border-radius: 20px;
-  padding: 28vh 8vw;
-  margin: 0 8vw;
+  padding: 28vh 9vw;
+  margin: 0 2vw;
 }
 
-.ButtonMaison:hover {
+.ButtonText:hover {
   transition-duration: 300ms;
   /* background-image: url("../../../../public/images/HeroImage.png");
   background-repeat: no-repeat; */

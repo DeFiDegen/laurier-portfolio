@@ -7,6 +7,7 @@
 @import url('./Components/maisonCarousel.css');
 @import url('./Components/maisonCall.css');
 @import url('./Components/pineappleHero.css');
+@import url('./Components/pineappleCall.css');
 
 .App {
   background-color: #414141;

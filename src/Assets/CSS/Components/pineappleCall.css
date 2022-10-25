@@ -1,0 +1,53 @@
+#PineappleCall {
+  text-align: center;
+  /* height: 100vh; */
+  background: linear-gradient(180deg, #000000 36.14%, #690FD7 88.29%);
+  /* background-repeat: no-repeat; */
+  /* background: cover; */
+}
+
+.Albums {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Album {
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid #5A5A5A;
+  height: 36vmax;
+  opacity: 0.4;
+}
+
+.Album:hover {
+  opacity: 1;
+  transition-duration: 600ms;
+}
+
+.PineappleAction {
+  margin-top: 10vmin;
+}
+
+.BookButtonOuter {
+  padding: 4vw 12vw;
+}
+
+.BookButton {
+  padding: 0.5px 0;
+  /* background: rgba(0, 0, 0, 0.4); */
+  backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  background-size: 96vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.BookButton > h4 {
+  font-weight: 400;
+}
+
+.BookButton:hover {
+  transition-duration: 600ms;
+  background: rgba(255, 255, 255, 0.4);
+}
