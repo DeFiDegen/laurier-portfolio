@@ -1,0 +1,36 @@
+#PineappleHero {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #DADADA 0%, rgba(0, 0, 0, 0) 50.52%, #000000 96.87%), url(/public/images/PineappleDeejay.png);
+  background-repeat: no-repeat;
+  background: cover;
+}
+
+.PHeroText {
+  font-family: 'Exo', sans-serif;
+  font-size: 13vmin;
+  font-style: italic;
+  font-weight: 900;
+  align-items: center;
+  background: linear-gradient(90deg, #FB1394 0%, #e8a01a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 16vw 0;
+}
+
+.PineappleBanner {
+  margin: 0 auto;
+  padding: 0;
+  opacity: 0.05;
+  list-style-type: none;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 30vmax;
+  color: #e5e5e5;
+  z-index: 0;
+}
+
+.PineappleBanner > li {
+  text-align: center;
+}
