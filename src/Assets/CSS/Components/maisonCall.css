@@ -33,7 +33,11 @@
   padding: 0;
 }
 
-.ButtonText:hover ~ h4 {
+/* .ButtonText:hover ~ h4 {
   transition-duration: 300ms;
+  color: black;
+} */
+
+.black {
   color: black;
 }

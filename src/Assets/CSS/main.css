@@ -8,9 +8,13 @@
 @import url('./Components/maisonCall.css');
 @import url('./Components/pineappleHero.css');
 @import url('./Components/pineappleCall.css');
+@import url('./Components/demonHero.css');
+@import url('./Components/demonCall.css');
 
 .App {
-  background-color: #414141;
+  /* background-color: #414141; */
+  background: linear-gradient(180deg, #6457F9 0%, #D9D9D9 100%);
+
 }
 
 body {
