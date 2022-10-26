@@ -11,9 +11,10 @@ export default function DemonCall() {
 
   return (
     <div id="DemonCall">
-      <div className="DemonBanner">
+      {/* <div className="DemonBanner">
         DESIGN
-      </div>
+      </div> */}
+
       <div className="SiteCards">
         <div className="SiteCard" 
         onMouseEnter={() => setNFTradeActive(true)} 
@@ -41,7 +42,7 @@ export default function DemonCall() {
       </div>
       <div>
         <p><em>Please reach out if you want to collaborate</em></p>
-        <div className='ReachButton'></div>
+        <div className='ReachButton'>Reach Out</div>
       </div>
     </div>
   );

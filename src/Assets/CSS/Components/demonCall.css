@@ -1,7 +1,8 @@
 #DemonCall {
   background: linear-gradient(180deg, #8A3FF4 0%, #690FD7 100%);
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
+  padding-bottom: 12px;
 }
 
 .DemonBanner {
@@ -45,16 +46,27 @@
 
 .InactiveImage {
   opacity: 0;
-  max-height: 16vh;
-  max-width: 16vw;
+  max-height: 8vh;
+  max-width: 8vw;
 }
 
 .ActiveImage {
   opacity: 1;
-  max-height: 16vh;
-  max-width: 16vw;
+  max-height: 8vh;
+  max-width: 8vw;
 }
 
 .ReachButton {
+  margin: 12px 24vw;
+  padding: 16px 12vw;
+  font-size: 3.2vmax;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+}
 
+.ReachButton:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transition-duration: 600ms;
 }
