@@ -21,4 +21,13 @@
 
 .activeMenu {
   font-weight: 700;
+  transition-duration: 200ms;
 }
+
+.menuItem {
+  cursor: pointer;
+}
+
+/* .menuItem:hover {
+  font-weight: 700;
+} */

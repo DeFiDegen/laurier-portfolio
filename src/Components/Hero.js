@@ -9,8 +9,8 @@ export default function Hero() {
         <p>I love art, music, and technology. 
           I am currently living in Canada, 
           but I am looking to relocate to the metaverse. 
-          I can help you design and implement your website. 
-          I can make art and music for you. 
+          I can help you <strong>design</strong> and implement your <strong>website</strong>. 
+          I can make <strong>art</strong> and <strong>music</strong> for you. 
           I can help bring your creative vision to the next level. 
           Reach out to me!
         </p>
