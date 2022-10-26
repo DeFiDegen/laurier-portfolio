@@ -6,7 +6,7 @@ const menuIcon = "images/IconMenu.svg";
 function Navbar() {
   const [menuActive, setMenuActive] = useState(false);
 
-  const handleClick = (event) => {
+  const openMenu = (event) => {
     event.preventDefault();
     setMenuActive(!menuActive);
   }
@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="Navigation">
       <div className="Navbar">
-        <div className="NavbarIcons" onClick={handleClick}>
+        <div className="NavbarIcons" onClick={openMenu}>
           <p className="MenuIcon">Menu</p>
           <img src={menuIcon} alt="Menu Icon" className="MenuIcon"/>
         </div>
