@@ -9,6 +9,7 @@
 @import url('./Components/pineappleHero.css');
 @import url('./Components/pineappleCall.css');
 @import url('./Components/demonHero.css');
+@import url('./Components/demonCall.css');
 
 .App {
   background-color: #414141;

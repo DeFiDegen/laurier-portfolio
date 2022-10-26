@@ -7,6 +7,7 @@ import MaisonCall from "./Components/MaisonCall";
 import PineappleHero from "./Components/PineappleHero";
 import PineappleCall from "./Components/PineappleCall";
 import DemonHero from "./Components/DemonHero";
+import DemonCall from "./Components/DemonCall";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <PineappleHero/>
       <PineappleCall/>
       <DemonHero/>
+      <DemonCall/>
     </div>
   );
 }
