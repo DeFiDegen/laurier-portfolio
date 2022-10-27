@@ -15,7 +15,8 @@
   backdrop-filter: blur(20px);
   border-radius: 20px;
   border: 1px solid #5A5A5A;
-  height: 36vmax;
+  /* height: 36vmax; */
+  width: 36vw;
   opacity: 0.4;
 }
 
@@ -29,22 +30,22 @@
 }
 
 .BookButtonOuter {
-  padding: 4vw 12vw;
+  padding: 0 12vw;
 }
 
 .BookButton {
-  padding: 0.5px 0;
-  /* background: rgba(0, 0, 0, 0.4); */
+  padding: 16px 12vw;
   backdrop-filter: blur(12.5px);
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.4);
-  background-size: 96vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-size: 96vw; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
 }
 
 .BookButton > h4 {
   font-weight: 400;
+  margin: 0;
 }
 
 .BookButton:hover {
