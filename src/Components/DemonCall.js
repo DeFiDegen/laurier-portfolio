@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const NFTradeLogo = "/images/NFTradeLogo.svg"
 const driplLogo = "/images/DriplLogo.svg"
@@ -42,7 +43,9 @@ export default function DemonCall() {
       </div>
       <div>
         <p><em>Please reach out if you want to collaborate</em></p>
-        <div className='ReachButton'>Reach Out</div>
+        <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} >
+          <div className='ReachButton'>Reach Out</div>
+        </Link>
       </div>
     </div>
   );

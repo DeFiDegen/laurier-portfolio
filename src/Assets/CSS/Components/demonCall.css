@@ -64,6 +64,7 @@
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(12.5px);
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .ReachButton:hover {
