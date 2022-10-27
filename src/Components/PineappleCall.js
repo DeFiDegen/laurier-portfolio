@@ -1,5 +1,8 @@
+import React, { Link } from 'react-scroll';
+
 const entrepot = "/images/Entrepot.png"
 const lowEndFuture = "/images/LowEndFuture.png"
+
 
 export default function PineappleCall() {
   return (
@@ -12,7 +15,9 @@ export default function PineappleCall() {
         <p className="PText"><em>Currently available for bookings</em></p>
         <div className="BookButtonOuter">
           <div className="BookButton">
-            <h4>Bookings</h4>
+            <h4>
+              <Link activeClass="activeMenu" to="Contact" spy={true} smooth={true} offset={50} duration={500} >Bookings</Link>
+            </h4>
           </div>
         </div>
       </div>
