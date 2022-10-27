@@ -17,7 +17,7 @@ export default function Menu() {
           <Link activeClass="activeMenu" to="DemonHero" spy={true} smooth={true} offset={0} duration={500} className="menuItem">Design</Link>
         </li>
         <li>
-          <Link activeClass="activeMenu" to="/" spy={true} smooth={true} offset={50} duration={500} className="menuItem">Contact</Link>
+          <Link activeClass="activeMenu" to="Contact" spy={true} smooth={true} offset={50} duration={500} className="menuItem">Contact</Link>
         </li>
       </ul>
     </div>

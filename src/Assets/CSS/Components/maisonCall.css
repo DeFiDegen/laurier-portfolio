@@ -13,6 +13,7 @@
   border-radius: 20px;
   padding: 28vh 9vw;
   margin: 0 2vw;
+  cursor: pointer;
 }
 
 .ButtonText:hover {
