@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 // const clone = "images/HeroImageFull.png";
 const twitter = "images/Twitter.svg";
 const instagram = "images/Instagram.svg";
@@ -29,20 +31,16 @@ export default function Contact() {
         </div>
         <div className="RightContact">
           <div className="ContactText">CONTACT</div>
-          <form onSubmit={handleSubmit} className="ContactForm">
-            <div>
-              <label className="FormLabel">First Name</label>
-              <input type="text" name="user_first_name" className="FormInput"/>
-              <label>Last Name</label>
-              <input type="text" name="user_last_name" />
-            </div>
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Subject</label>
-            <input type="subject" name="user_subject" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
+          <form className="ContactForm" onSubmit={handleSubmit}>
+            <label className="FormLabel">Name</label>
+            <input className="FormInput" type="text" name="user_name"/>
+            <label className="FormLabel">Email</label>
+            <input className="FormInput" type="email" name="user_email" />
+            <label className="FormLabel">Subject</label>
+            <input className="FormInput" type="subject" name="user_subject" />
+            <label className="FormLabel">Message</label>
+            <textarea className="FormInput TextArea" name="message" />
+            <input className="FormButton" type="submit" value="Send Message" />
           </form>
         </div>
       </div>
