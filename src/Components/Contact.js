@@ -1,10 +1,16 @@
-const clone = "images/HeroImageFull.png";
+// const clone = "images/HeroImageFull.png";
 const twitter = "images/Twitter.svg";
 const instagram = "images/Instagram.svg";
 const behance = "images/Behance.svg";
 const gitHub = "images/GitHub.svg";
 
 export default function Contact() {
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(event.target.value);
+  }
+
   return (
     <div id="Contact">
       <div className="FinalPage">
@@ -22,10 +28,25 @@ export default function Contact() {
           </div>
         </div>
         <div className="RightContact">
-          <div className="contactText">CONTACT</div>
+          <div className="ContactText">CONTACT</div>
+          <form onSubmit={handleSubmit} className="ContactForm">
+            <div>
+              <label className="FormLabel">First Name</label>
+              <input type="text" name="user_first_name" className="FormInput"/>
+              <label>Last Name</label>
+              <input type="text" name="user_last_name" />
+            </div>
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Subject</label>
+            <input type="subject" name="user_subject" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+          </form>
         </div>
       </div>
-      <img src={clone} alt="Clone" className="ContactImage"></img>
+      {/* <img src={clone} alt="Clone" className="ContactImage"></img> */}
     </div>
   );
 }
