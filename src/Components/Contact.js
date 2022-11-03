@@ -18,10 +18,18 @@ export default function Contact() {
       <div className="FinalPage">
         <div className="LeftContact">
           <div className="Socials">
-            <img src={twitter} alt="Twitter Logo" className="SocialLogo" />
-            <img src={instagram} alt="nstagram Logo" className="SocialLogo" />
-            <img src={behance} alt="Behance Logo" className="SocialLogo" />
-            <img src={gitHub} alt="GitHub Logo" className="SocialLogo" />
+            <a href='https://twitter.com/SeksiDemon' target={"blank"}>
+              <img src={twitter} alt="Twitter Logo" className="SocialLogo" />
+            </a>
+            <a href='https://www.instagram.com/maison.laurier/' target={"blank"}>
+              <img src={instagram} alt="Instagram Logo" className="SocialLogo" />
+            </a>
+            <a href='https://www.behance.net/defidegen' target={"blank"}>
+              <img src={behance} alt="Behance Logo" className="SocialLogo" />
+            </a>
+            <a href='https://github.com/DeFiDegen/' target={"blank"}>
+              <img src={gitHub} alt="GitHub Logo" className="SocialLogo" />
+            </a>
           </div>
           <div className="ContactInfo">
             <h3>Feel free to reach out!</h3>
