@@ -22,6 +22,8 @@
 }
 
 .SiteCard {
+  cursor: pointer;
+  color: white;
   margin: 24px;
   padding: 2rem;
   /* background-color: black; */

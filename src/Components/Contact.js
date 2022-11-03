@@ -1,19 +1,35 @@
-const clone = "images/HeroImageFull.png";
+import React, { useState } from 'react';
+
+// const clone = "images/HeroImageFull.png";
 const twitter = "images/Twitter.svg";
 const instagram = "images/Instagram.svg";
 const behance = "images/Behance.svg";
 const gitHub = "images/GitHub.svg";
 
 export default function Contact() {
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(event.target.value);
+  }
+
   return (
     <div id="Contact">
       <div className="FinalPage">
         <div className="LeftContact">
           <div className="Socials">
-            <img src={twitter} alt="Twitter Logo" className="SocialLogo" />
-            <img src={instagram} alt="nstagram Logo" className="SocialLogo" />
-            <img src={behance} alt="Behance Logo" className="SocialLogo" />
-            <img src={gitHub} alt="GitHub Logo" className="SocialLogo" />
+            <a href='https://twitter.com/SeksiDemon' target={"blank"}>
+              <img src={twitter} alt="Twitter Logo" className="SocialLogo" />
+            </a>
+            <a href='https://www.instagram.com/maison.laurier/' target={"blank"}>
+              <img src={instagram} alt="Instagram Logo" className="SocialLogo" />
+            </a>
+            <a href='https://www.behance.net/defidegen' target={"blank"}>
+              <img src={behance} alt="Behance Logo" className="SocialLogo" />
+            </a>
+            <a href='https://github.com/DeFiDegen/' target={"blank"}>
+              <img src={gitHub} alt="GitHub Logo" className="SocialLogo" />
+            </a>
           </div>
           <div className="ContactInfo">
             <h3>Feel free to reach out!</h3>
@@ -22,10 +38,21 @@ export default function Contact() {
           </div>
         </div>
         <div className="RightContact">
-          <div className="contactText">CONTACT</div>
+          <div className="ContactText">CONTACT</div>
+          <form className="ContactForm" onSubmit={handleSubmit}>
+            <label className="FormLabel">Name</label>
+            <input className="FormInput" type="text" name="user_name"/>
+            <label className="FormLabel">Email</label>
+            <input className="FormInput" type="email" name="user_email" />
+            <label className="FormLabel">Subject</label>
+            <input className="FormInput" type="subject" name="user_subject" />
+            <label className="FormLabel">Message</label>
+            <textarea className="FormInput TextArea" name="message" />
+            <input className="FormButton" type="submit" value="Send Message" />
+          </form>
         </div>
       </div>
-      <img src={clone} alt="Clone" className="ContactImage"></img>
+      {/* <img src={clone} alt="Clone" className="ContactImage"></img> */}
     </div>
   );
 }
