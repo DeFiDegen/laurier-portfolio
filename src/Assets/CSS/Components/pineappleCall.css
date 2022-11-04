@@ -12,16 +12,18 @@
 }
 
 .Album {
-  backdrop-filter: blur(20px);
+  /* backdrop-filter: blur(20px); */
   border-radius: 20px;
-  border: 1px solid #5A5A5A;
   /* height: 36vmax; */
-  width: 36vw;
+  width: 32vw;
   opacity: 0.4;
+  cursor: pointer;
+  border: 1px solid #5a5a5a00;
 }
 
 .Album:hover {
   opacity: 1;
+  border-color: #5a5a5a;
   transition-duration: 600ms;
 }
 
