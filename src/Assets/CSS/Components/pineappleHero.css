@@ -9,6 +9,7 @@
 }
 
 .PHeroText {
+  cursor: default;
   font-family: 'Exo', sans-serif;
   font-size: 8vw;
   font-style: italic;

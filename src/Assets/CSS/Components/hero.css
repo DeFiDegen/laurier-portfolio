@@ -3,17 +3,13 @@
   align-items: flex-end;
   padding-left: 8vw;
   height: 100vh;
-  /* background: linear-gradient(180deg, #6457F9 0%, #D9D9D9 100%); */
 }
 
 .HeroInfo {
-  /* margin: 0; */
-  /* width: 500px; */
   width: 40vw;
 }
 
 .HeroInfo > p {
-  /* font-size: 12px; */
   font-size: 1vmax;
 }
 

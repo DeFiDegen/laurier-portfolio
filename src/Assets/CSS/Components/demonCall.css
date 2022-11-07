@@ -1,12 +1,10 @@
 #DemonCall {
   background: linear-gradient(180deg, #8A3FF4 0%, #690FD7 100%);
-  /* height: 100vh; */
   text-align: center;
   padding-bottom: 12px;
 }
 
 .DemonBanner {
-  /* text-align: center; */
   font-family: "Arial", sans-serif;
   font-size: 20vmax;
   position: absolute;
@@ -22,17 +20,14 @@
 }
 
 .SiteCard {
-  cursor: pointer;
   color: white;
   margin: 24px;
   padding: 2rem;
-  /* background-color: black; */
   border: solid rgba(255, 255, 255, 0.861);
   border-width: 0.5px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-height: 30vmin; */
 }
 
 .SiteCard:hover {
@@ -64,9 +59,8 @@
   font-size: 3.2vmax;
   font-weight: 700;
   background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(12.5px);
   border-radius: 20px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .ReachButton:hover {

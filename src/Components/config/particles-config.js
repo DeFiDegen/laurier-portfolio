@@ -31,8 +31,8 @@ const particlesConfig = {
     detectsOn: "window",
     events: {
       onClick: {
-        enable: false,
-        mode: []
+        enable: true,
+        mode: "repulse"
       },
       onDiv: {
         selectors: [],
@@ -52,51 +52,6 @@ const particlesConfig = {
       resize: true
     },
     modes: {
-      attract: {
-        distance: 200,
-        duration: 0.4,
-        easing: "ease-out-quad",
-        factor: 1,
-        maxSpeed: 50,
-        speed: 1
-      },
-      bounce: {
-        distance: 200
-      },
-      bubble: {
-        distance: 200,
-        duration: 0.4,
-        mix: false,
-        divs: {
-          distance: 200,
-          duration: 0.4,
-          mix: false,
-          selectors: []
-        }
-      },
-      connect: {
-        distance: 80,
-        links: {
-          opacity: 0.5
-        },
-        radius: 60
-      },
-      grab: {
-        distance: 100,
-        links: {
-          blink: false,
-          consent: false,
-          opacity: 1
-        }
-      },
-      push: {
-        default: true,
-        groups: [],
-        quantity: 4
-      },
-      remove: {
-        quantity: 2
-      },
       repulse: {
         distance: 200,
         duration: 0.4,
