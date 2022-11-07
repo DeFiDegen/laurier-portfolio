@@ -9,11 +9,13 @@ import PineappleCall from "./Components/PineappleCall";
 import DemonHero from "./Components/DemonHero";
 import DemonCall from "./Components/DemonCall";
 import Contact from "./Components/Contact";
+import ParticlesBackground from "./Components/ParticlesBackground";
 
 
 function App() {
   return (
     <div className="App">
+      <ParticlesBackground />
       <Navbar />
       <Hero />
       <MaisonLaurierHero /> 
