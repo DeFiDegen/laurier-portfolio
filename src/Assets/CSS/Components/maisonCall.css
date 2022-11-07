@@ -1,7 +1,9 @@
 #MaisonCall {
   text-align: center;
   height: 100vh;
-  background: linear-gradient(180deg, #D9D9D9 100%, #DEDEDE 0%);
+  /* background: linear-gradient(180deg, #D9D9D9 100%, #dedede00 0%); */
+  background: linear-gradient(180deg, #D9D9D9 10%, #00000000 88.29%);
+
 }
 
 .MCText {
@@ -13,7 +15,7 @@
   border-radius: 20px;
   padding: 28vh 9vw;
   margin: 0 2vw;
-  cursor: pointer;
+  cursor: default;
 }
 
 .ButtonText:hover {
@@ -21,7 +23,7 @@
   /* background-image: url("../../../../public/images/HeroImage.png");
   background-repeat: no-repeat; */
   background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(12.5px);
+  /* backdrop-filter: blur(12.5px); */
 }
 
 .ButtonText > h4 {
@@ -33,11 +35,6 @@
   margin: 0;
   padding: 0;
 }
-
-/* .ButtonText:hover ~ h4 {
-  transition-duration: 300ms;
-  color: black;
-} */
 
 .black {
   color: black;

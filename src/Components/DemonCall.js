@@ -46,8 +46,8 @@ export default function DemonCall() {
       </div>
       <div>
         <p><em>Please reach out if you want to collaborate</em></p>
-        <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} >
-          <div className='ReachButton'>Reach Out</div>
+        <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} className='ReachButton' >
+          Reach Out
         </Link>
       </div>
     </div>

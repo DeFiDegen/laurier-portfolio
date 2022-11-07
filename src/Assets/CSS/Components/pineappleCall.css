@@ -1,9 +1,6 @@
 #PineappleCall {
   text-align: center;
-  /* height: 100vh; */
-  background: linear-gradient(180deg, #000000 36.14%, #690FD7 88.29%);
-  /* background-repeat: no-repeat; */
-  /* background: cover; */
+  background: linear-gradient(180deg, #00000000 36.14%, #690FD7 88.29%);
 }
 
 .Albums {
@@ -12,12 +9,9 @@
 }
 
 .Album {
-  /* backdrop-filter: blur(20px); */
   border-radius: 20px;
-  /* height: 36vmax; */
   width: 32vw;
   opacity: 0.4;
-  cursor: pointer;
   border: 1px solid #5a5a5a00;
 }
 
@@ -37,18 +31,14 @@
 
 .BookButton {
   padding: 16px 12vw;
-  backdrop-filter: blur(12.5px);
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.4);
-  /* background-size: 96vw; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
 }
 
 .BookButton > h4 {
   font-weight: 400;
   margin: 0;
-  cursor: pointer;
+  cursor: default;
 }
 
 .BookButton:hover {
