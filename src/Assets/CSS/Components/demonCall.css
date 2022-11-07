@@ -5,6 +5,7 @@
 }
 
 .DemonBanner {
+  cursor: default;
   font-family: "Arial", sans-serif;
   font-size: 20vmax;
   position: absolute;
