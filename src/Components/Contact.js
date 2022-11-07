@@ -1,6 +1,3 @@
-import React, { useState } from 'react';
-
-// const clone = "images/HeroImageFull.png";
 const twitter = "images/Twitter.svg";
 const instagram = "images/Instagram.svg";
 const behance = "images/Behance.svg";
@@ -10,7 +7,12 @@ export default function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(event.target.value);
+    const contactPayload = {};
+    contactPayload["name"] = event.target["user_name"].value;
+    contactPayload["email"] = event.target["user_email"].value;
+    contactPayload["subject"] = event.target["user_subject"].value;
+    contactPayload["message"] = event.target["message"].value;
+    console.log(contactPayload);
   }
 
   return (
@@ -52,7 +54,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      {/* <img src={clone} alt="Clone" className="ContactImage"></img> */}
     </div>
   );
 }
