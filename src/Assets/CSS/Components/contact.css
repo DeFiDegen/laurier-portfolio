@@ -60,6 +60,20 @@
   padding: 0;
 }
 
+.rightContact {
+  position: relative;
+}
+
+.FormResponse {
+  background-color: black;
+  border-radius: 20px;
+  padding: 4px 8px;
+  text-align: right;
+  position: absolute;
+  right: 64px;
+  z-index: 2;
+}
+
 .ContactText {
   font-weight: 400;
   font-style: italic;
