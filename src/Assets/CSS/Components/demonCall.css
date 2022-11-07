@@ -39,7 +39,7 @@
 }
 
 .SCText {
-  font-size: 5vmax;
+  font-size: 4.5vmax;
 }
 
 .InactiveImage {
@@ -54,7 +54,7 @@
   max-width: 8vw;
 }
 
-.ReachButton {
+/* .ReachButton {
   margin: 12px 24vw;
   padding: 16px 12vw;
   font-size: 3.2vmax;
@@ -67,4 +67,5 @@
 .ReachButton:hover {
   background: rgba(255, 255, 255, 0.4);
   transition-duration: 600ms;
-}
+  adding fake stuff here to test git repository
+} */
