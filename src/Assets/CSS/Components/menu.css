@@ -1,4 +1,4 @@
-.Menu {
+#Menu {
   display: flex;
   justify-content: right;
   margin-right: 20px;
@@ -16,7 +16,6 @@
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   border-radius: var(--main-border-radius);
-  z-index: 3;
 }
 
 .activeMenu {
@@ -27,7 +26,3 @@
 .menuItem {
   cursor: pointer;
 }
-
-/* .menuItem:hover {
-  font-weight: 700;
-} */

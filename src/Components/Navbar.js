@@ -12,14 +12,13 @@ function Navbar() {
   }
 
   return (
-    <div className="Navigation">
+    <div id="Navigation">
       <div className="Navbar">
         <div className="NavbarIcons" onClick={openMenu}>
           <p className="MenuIcon">Menu</p>
           <img src={menuIcon} alt="Menu Icon" className="MenuIcon"/>
         </div>
       </div>
-      
       {menuActive ? <Menu/> : null }
     </div>
   );

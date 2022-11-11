@@ -11,7 +11,7 @@ export default function MaisonCall() {
         <div className="ButtonText"
         onMouseEnter={() => setContactBlackActive(true)}
         onMouseLeave={() => setContactBlackActive(false)}
-        >      
+        >
           <h4 className={contactBlackActive ? "black" : ""}>CONTACT</h4>
           <h5>LAURIER</h5>
         </div>

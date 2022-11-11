@@ -15,10 +15,8 @@ export default function MaisonCarousel() {
       <div className="CarouselBanner">
         ART
       </div>
-      
       <Parallax pages={7}>
         <div className="Carousel">
-          
             <ParallaxLayer>
               <div className="CarouselItem Left">
                 <h6 className="CarouselText Left">RIFTCUBE</h6>

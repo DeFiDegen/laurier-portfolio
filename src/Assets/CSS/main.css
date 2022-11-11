@@ -12,43 +12,33 @@
 @import url('./Components/demonCall.css');
 @import url('./Components/contact.css');
 
-.App {
-  /* background-color: #414141; */
-  /* background: linear-gradient(180deg, #6457F9 0%, #D9D9D9 100%); */
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 h2 {
-  /* font-size: 40px; */
   font-size: 3.2vmax;
   font-weight: 400;
 }
 
 h3 {
-  /* font-size: 20px; */
   font-size: 1.6vmax;
   font-weight: 400;
 }
 
 h4 {
-  /* font-size: 80px; */
   font-size: 9vmin;
   font-weight: 700;
 }
 
 h5 {
-  /* font-size: 160px; */
   font-size: 18vmin;
   font-weight: 200;
 }
 
 
 h6 {
-  /* font-size: 64px; */
   font-size: 5vmax;
   font-weight: 700;
 }
@@ -59,4 +49,7 @@ a {
 
 :root {
   --main-border-radius: 20px;
+  --button-bckg: rgba(0, 0, 0, 0.4);
+  --button-bckg-hover: rgba(255, 255, 255, 0.4);
+  --big-blur: blur(12.5px);
 }

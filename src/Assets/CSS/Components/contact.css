@@ -2,18 +2,10 @@
   height: 100vh;
   background: linear-gradient(180deg, #690FD7 0%, #d9d9d98b 100%);
   padding: 8vw 8vw;
-  /* position: relative; */
 }
 
 .FinalPage {
   display: flex;
-  /* position: absolute;
-  bottom: 64px; */
-}
-
-.LeftContact {
-  /* position: absolute;
-  bottom: 64px; */
 }
 
 .ContactImage{
@@ -47,7 +39,6 @@
 }
 
 .ContactInfo > p {
-  /* font-size: 12px; */
   font-size: 1vmax;
 }
 
@@ -83,19 +74,16 @@
 .ContactForm {
   display: grid;
   width: 44vw;
-  /* -webkit-appearance: none; */
 }
 
 .FormLabel {
-  /* position: absolute;
-  z-index: 2; */
   padding: 6px 0;
 }
 
 .FormInput {
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--button-bckg);
   border: 1px solid #000000;
-  backdrop-filter: blur(12.5px);
+  backdrop-filter: var(--big-blur);
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vmin;
   color: white;
@@ -111,14 +99,14 @@
   color: white;
   font-size: 4vmin;
   padding: 8px 12px;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(12.5px);
+  background: var(--button-bckg);
+  backdrop-filter: var(--big-blur);
   border-radius: 10px;
   border: none;
   margin-top: 12px;
 }
 
 .FormButton:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: var(--button-bckg-hover);
   transition-duration: 600ms;
 }

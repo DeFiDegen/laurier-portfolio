@@ -1,7 +1,6 @@
 #MaisonCall {
   text-align: center;
   height: 100vh;
-  /* background: linear-gradient(180deg, #D9D9D9 100%, #dedede00 0%); */
   background: linear-gradient(180deg, #D9D9D9 10%, #00000000 88.29%);
 
 }
@@ -20,10 +19,7 @@
 
 .ButtonText:hover {
   transition-duration: 300ms;
-  /* background-image: url("../../../../public/images/HeroImage.png");
-  background-repeat: no-repeat; */
-  background: rgba(255, 255, 255, 0.4);
-  /* backdrop-filter: blur(12.5px); */
+  background: var(--button-bckg-hover);
 }
 
 .ButtonText > h4 {

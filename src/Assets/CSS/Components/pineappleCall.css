@@ -12,12 +12,10 @@
   border-radius: var(--main-border-radius);
   width: 32vw;
   opacity: 0.4;
-  border: 1px solid #5a5a5a00;
 }
 
 .Album:hover {
   opacity: 1;
-  border-color: #5a5a5a;
   transition-duration: 600ms;
 }
 
@@ -32,7 +30,7 @@
 .BookButton {
   padding: 16px 12vw;
   border-radius: var(--main-border-radius);
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--button-bckg);
 }
 
 .BookButton > h4 {
@@ -43,5 +41,5 @@
 
 .BookButton:hover {
   transition-duration: 600ms;
-  background: rgba(255, 255, 255, 0.4);
+  background: var(--button-bckg-hover);
 }

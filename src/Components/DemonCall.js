@@ -15,10 +15,6 @@ export default function DemonCall() {
 
   return (
     <div id="DemonCall">
-      {/* <div className="DemonBanner">
-        DESIGN
-      </div> */}
-
       <div className="SiteCards">
         <a href={nfTradeLink} target={'blank'} className="SiteCard" 
           onMouseEnter={() => setNFTradeActive(true)} 
@@ -53,9 +49,6 @@ export default function DemonCall() {
             </h4>
           </div>
         </div>
-        {/* <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} className='ReachButton' >
-          Reach Out
-        </Link> */}
       </div>
     </div>
   );
