@@ -58,3 +58,7 @@ h6 {
 a {
   all: unset;
 }
+
+.NoPointer {
+  pointer-events: none;
+}

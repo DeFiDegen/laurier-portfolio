@@ -12,7 +12,7 @@ const slimey = '/images/Slimey.PNG'
 export default function MaisonCarousel() {
   return (
     <div id="MaisonCarousel">
-      <div className="CarouselBanner">
+      <div className="CarouselBanner NoPointer">
         ART
       </div>
       <Parallax pages={7}>
