@@ -2,7 +2,6 @@
   text-align: center;
   height: 100vh;
   background: linear-gradient(180deg, #D9D9D9 10%, #00000000 88.29%);
-
 }
 
 .MCText {
@@ -18,7 +17,7 @@
 }
 
 .ButtonText:hover {
-  transition-duration: 300ms;
+  transition-duration: var(--normal-duration);
   background: var(--button-bckg-hover);
 }
 

@@ -11,7 +11,7 @@
 
 .SiteCard {
   cursor: default;
-  color: white;
+  color: var(--text-main);
   margin: 24px;
   padding: 2rem;
   border: solid rgba(255, 255, 255, 0.861);
@@ -25,7 +25,7 @@
   border-radius: var(--main-border-radius);
   background-color: black;
   border-color: #ffffff00;
-  transition-duration: 600ms;
+  transition-duration: var(--normal-duration);
 }
 
 .SCText {

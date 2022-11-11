@@ -77,7 +77,7 @@ export default function Contact() {
             </a>
           </div>
           <div className="ContactInfo">
-            <h3>Feel free to reach out!</h3>
+            <h3>Feel free to reach out</h3>
             <h2>LAURIER <strong>ST-AUBIN</strong></h2>
             <p>Contact me using the form, or through DMs</p>
           </div>

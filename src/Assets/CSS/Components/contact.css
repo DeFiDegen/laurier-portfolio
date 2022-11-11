@@ -29,7 +29,7 @@
 
 .SocialLogo:hover {
   width: 11.5vw;
-  transition-duration: 600ms;
+  transition-duration: var(--normal-duration);
 }
 
 .ContactInfo {
@@ -86,7 +86,7 @@
   backdrop-filter: var(--big-blur);
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vmin;
-  color: white;
+  color: var(--text-main);
   padding: 8px 12px;
 }
 
@@ -96,7 +96,7 @@
 
 .FormButton {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: var(--text-main);
   font-size: 4vmin;
   padding: 8px 12px;
   background: var(--button-bckg);
@@ -108,5 +108,5 @@
 
 .FormButton:hover {
   background: var(--button-bckg-hover);
-  transition-duration: 600ms;
+  transition-duration: var(--normal-duration);
 }

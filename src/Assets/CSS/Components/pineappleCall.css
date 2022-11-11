@@ -16,7 +16,7 @@
 
 .Album:hover {
   opacity: 1;
-  transition-duration: 600ms;
+  transition-duration: var(--normal-duration);
 }
 
 .PineappleAction {
@@ -40,6 +40,6 @@
 }
 
 .BookButton:hover {
-  transition-duration: 600ms;
+  transition-duration: var(--normal-duration);
   background: var(--button-bckg-hover);
 }

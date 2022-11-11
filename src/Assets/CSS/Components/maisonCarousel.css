@@ -11,7 +11,7 @@
   font-size: 48vw;
   position: absolute;
   width: 100%;
-  color: #e5e5e5;
+  color: var(--banner-text-color);
   z-index: 0;
   align-items: center;
 }
