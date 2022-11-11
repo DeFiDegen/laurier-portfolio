@@ -11,14 +11,10 @@
   font-size: 48vw;
   position: absolute;
   width: 100%;
-  color: #e5e5e5;
+  color: var(--banner-text-color);
   z-index: 0;
   align-items: center;
 }
-
-/* .Carousel {
-  margin-top: 30px;
-} */
 
 .CarouselItem {
   display: flex;
@@ -35,9 +31,8 @@
 
 .CarouselImage.Left {
   position: relative;
-  /* width: 500px; */
   height: 36vmax;
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   z-index: 1;
   right: 2em;
 }
@@ -52,7 +47,7 @@
 .CarouselImage.Right {
   position: relative;
   height: 36vmax;
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   z-index: 1;
   left: 2em;
 }

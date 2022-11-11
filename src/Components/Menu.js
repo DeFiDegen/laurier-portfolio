@@ -2,7 +2,7 @@ import React, { Link } from 'react-scroll';
 
 export default function Menu() {
   return (
-    <div className="Menu">
+    <div id="Menu">
       <ul className="MenuList">
         <li>
           <Link activeClass="activeMenu" to="Hero" spy={true} smooth={true} offset={-70} duration={500} className="menuItem">Home</Link>

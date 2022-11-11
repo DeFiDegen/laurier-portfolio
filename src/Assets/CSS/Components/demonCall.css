@@ -4,24 +4,14 @@
   padding-bottom: 12px;
 }
 
-.DemonBanner {
-  cursor: default;
-  font-family: "Arial", sans-serif;
-  font-size: 20vmax;
-  position: absolute;
-  width: 100%;
-  color: #e5e5e5;
-  z-index: 0;
-  opacity: 0.05;
-}
-
 .SiteCards {
   margin: 0 4vw;
   padding: 2vw;
 }
 
 .SiteCard {
-  color: white;
+  cursor: default;
+  color: var(--text-main);
   margin: 24px;
   padding: 2rem;
   border: solid rgba(255, 255, 255, 0.861);
@@ -32,10 +22,10 @@
 }
 
 .SiteCard:hover {
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   background-color: black;
   border-color: #ffffff00;
-  transition-duration: 600ms;
+  transition-duration: var(--normal-duration);
 }
 
 .SCText {
@@ -53,19 +43,3 @@
   max-height: 8vh;
   max-width: 8vw;
 }
-
-/* .ReachButton {
-  margin: 12px 24vw;
-  padding: 16px 12vw;
-  font-size: 3.2vmax;
-  font-weight: 700;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 20px;
-  cursor: default;
-}
-
-.ReachButton:hover {
-  background: rgba(255, 255, 255, 0.4);
-  transition-duration: 600ms;
-  adding fake stuff here to test git repository
-} */

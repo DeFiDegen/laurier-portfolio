@@ -44,7 +44,9 @@ export default function Contact() {
       message: event.target["message"].value
     };
 
-    if (contactPayload["name"] && contactPayload["email"] && contactPayload["subject"] && contactPayload["message"]) {
+    const formComplete = contactPayload["name"] && contactPayload["email"] && contactPayload["subject"] && contactPayload["message"];
+
+    if (formComplete) {
       emailjs.send("service_f08ooe8","template_edp48fo", contactPayload, "user_c1XSQZnKnV3t0QkiJmWPA")
         .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
@@ -77,15 +79,15 @@ export default function Contact() {
             </a>
           </div>
           <div className="ContactInfo">
-            <h3>Feel free to reach out!</h3>
+            <h3>Feel free to reach out</h3>
             <h2>LAURIER <strong>ST-AUBIN</strong></h2>
             <p>Contact me using the form, or through DMs</p>
           </div>
         </div>
         <div className="RightContact">
           <div className="ContactText">CONTACT</div>
-          {success ? <Success /> : null }
-          {failure ? <Failure /> : null }
+          { success ? <Success /> : null }
+          { failure ? <Failure /> : null }
           <form className="ContactForm" onSubmit={handleSubmit}>
             <label className="FormLabel">Name</label>
             <input className="FormInput" type="text" name="user_name"/>
