@@ -20,7 +20,7 @@
   text-align: center;
   background: rgba(222, 222, 222, 0.4);
   backdrop-filter: blur(12.5px);
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   position: relative;
   top: 0;
 }

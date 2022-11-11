@@ -9,7 +9,7 @@
 }
 
 .Album {
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   width: 32vw;
   opacity: 0.4;
   border: 1px solid #5a5a5a00;
@@ -31,7 +31,7 @@
 
 .BookButton {
   padding: 16px 12vw;
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   background: rgba(0, 0, 0, 0.4);
 }
 

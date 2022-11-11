@@ -12,7 +12,7 @@
 }
 
 .ButtonText {
-  border-radius: 20px;
+  border-radius: var(--main-border-radius);
   padding: 28vh 9vw;
   margin: 0 2vw;
   cursor: default;
