@@ -86,8 +86,8 @@ export default function Contact() {
         </div>
         <div className="RightContact">
           <div className="ContactText">CONTACT</div>
-          {success ? <Success /> : null }
-          {failure ? <Failure /> : null }
+          { success ? <Success /> : null }
+          { failure ? <Failure /> : null }
           <form className="ContactForm" onSubmit={handleSubmit}>
             <label className="FormLabel">Name</label>
             <input className="FormInput" type="text" name="user_name"/>

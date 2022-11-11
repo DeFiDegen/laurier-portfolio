@@ -3,7 +3,7 @@ import Menu from './Menu.js';
 
 const menuIcon = "images/IconMenu.svg";
 
-function Navbar() {
+export default function Navbar() {
   const [menuActive, setMenuActive] = useState(false);
 
   const openMenu = (event) => {
@@ -19,9 +19,7 @@ function Navbar() {
           <img src={menuIcon} alt="Menu Icon" className="MenuIcon"/>
         </div>
       </div>
-      {menuActive ? <Menu/> : null }
+      { menuActive ? <Menu/> : null }
     </div>
   );
 }
-
-export default Navbar;
