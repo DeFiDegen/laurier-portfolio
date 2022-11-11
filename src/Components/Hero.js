@@ -12,7 +12,7 @@ export default function Hero() {
           I can help you <strong>design</strong> and implement your <strong>website</strong>. 
           I can make <strong>art</strong> and <strong>music</strong> for you. 
           I can help bring your creative vision to the next level. 
-          Reach out to me!
+          Reach out to me.
         </p>
       </div>
       <img src={clone} alt="Clone" className="CloneImage"></img>

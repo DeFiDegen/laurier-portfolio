@@ -44,7 +44,9 @@ export default function Contact() {
       message: event.target["message"].value
     };
 
-    if (contactPayload["name"] && contactPayload["email"] && contactPayload["subject"] && contactPayload["message"]) {
+    const formComplete = contactPayload["name"] && contactPayload["email"] && contactPayload["subject"] && contactPayload["message"];
+
+    if (formComplete) {
       emailjs.send("service_f08ooe8","template_edp48fo", contactPayload, "user_c1XSQZnKnV3t0QkiJmWPA")
         .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
