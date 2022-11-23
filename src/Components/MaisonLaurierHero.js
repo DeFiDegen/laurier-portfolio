@@ -3,7 +3,7 @@ const video = '/videos/LordGigabrain.mp4'
 export default function MaisonLaurierHero() {
   return (
     <div id="MaisonLaurierHero">
-        <video className="MaisonVideo NoPointer" src={video} autoPlay loop muted></video>
+        <video className="MaisonVideo NoPointer" src={video} autoPlay loop muted playsinline></video>
       <div className="MaisonBanner">
         <div className="MBContent">
           <h4>Maison</h4>
