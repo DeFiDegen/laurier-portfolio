@@ -20,7 +20,9 @@ export default function MaisonCarousel() {
             <ParallaxLayer>
               <div className="CarouselItem Left">
                 <h6 className="CarouselText Left">RIFTCUBE</h6>
-                <video className="CarouselImage Left" src={riftCube} autoPlay loop muted></video>
+                <a target={"_blank"} rel="noreferrer" href='https://foundation.app/@DeFiDemon/rift-8263/1' className='CarouselLink'>
+                  <video className="CarouselImage Left" src={riftCube} autoPlay loop muted></video>
+                </a>
               </div>
             </ParallaxLayer>
 

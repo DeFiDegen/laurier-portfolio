@@ -51,3 +51,7 @@
   z-index: 1;
   left: 2em;
 }
+
+.CarouselLink:hover {
+  cursor: pointer;
+}
