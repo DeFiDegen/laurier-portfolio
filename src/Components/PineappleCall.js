@@ -3,7 +3,7 @@ import React, { Link } from 'react-scroll';
 const entrepot = "/images/Entrepot.jpg"
 const entrepotLink = "https://open.spotify.com/album/2gvogKo3QKkOcuCGSh9Pon"
 const lowEndFuture = "/images/LowEndFuture.jpg"
-const lowEndFutureLink = "https://open.spotify.com/album/2gvogKo3QKkOcuCGSh9Pon"
+const lowEndFutureLink = "https://open.spotify.com/album/5bJxTLj3toVunHmrLqrwXo"
 
 
 export default function PineappleCall() {
